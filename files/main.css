@@ -114,7 +114,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: url('../img/web-background.jpg');
+    background: url('../files/web-background.jpg');
     background-attachment: fixed;
 }
 @media print {
@@ -245,31 +245,31 @@ td, th {
 }
 
 .page-bg-01 {
-    background-image: url("../files/page-bg-noise-01.png");
+    background-image: url("../files/page-bg-noise-01.png"); /*Ovdje je bilo originalno url("../img/page-bg-noise-01.png")*/
 }
 
 .page-bg-02 {
-    background-image: url("../files/page-bg-noise-02.png");
+    background-image: url("../files/page-bg-noise-02.png"); /*Ovdje je bilo originalno url("../img/page-bg-noise-02.png")*/
 }
 
 .page-bg-03 {
-    background-image: url("../files/page-bg-noise-03.png");
+    background-image: url("../files/page-bg-noise-03.png"); /*Ovdje je bilo originalno url("../img/page-bg-noise-03.png")*/
 }
 
 .page-bg-04 {
-    background-image: url("../files/page-bg-noise-04.png");
+    background-image: url("../files/page-bg-noise-04.png"); /*Ovdje je bilo originalno url("../img/page-bg-noise-04.png")*/
 }
 
 .page-bg-05 {
-    background-image: url("../iles/page-bg-noise-05.png");
+    background-image: url("../iles/page-bg-noise-05.png"); /*Ovdje je bilo originalno url("../img/page-bg-noise-05.png")*/
 }
 
 .page-bg-06 {
-    background-image: url("../files/page-bg-noise-06.png");
+    background-image: url("../files/page-bg-noise-06.png"); /*Ovdje je bilo originalno url("../img/page-bg-noise-06.png")*/
 }
 
 .page-bg-07 {
-    background-image: url("../files/page-bg-noise-07.png");
+    background-image: url("../files/page-bg-noise-07.png"); /*Ovdje je bilo originalno url("../img/page-bg-noise-07.png")*/
 }
 
 @media print {
@@ -278,7 +278,7 @@ td, th {
     }
 }
 
-.page-content {
+.page-content {/*ovo je izmjenjeno, zbog printanja u PDF, original je bio "margin: 4.5em 8.82% 0;" bez dijela "padding-top: 5em"*/
     margin: 0 8.82% 0; /* = 0.75in ~0.75in 0 at 12pt (1em) */
     padding-top: 5em;
     min-height: 57em; /* Leaving 3em at the bottom for footer (0.75in) */
@@ -519,7 +519,7 @@ td, th {
 	height:1.9em;
 }
 
-.maze {
+.maze { /*takoder izmenjeno, zbog ravnanja labirinta na sredinu, original je bio "width:11em; height:11em; margin:.1em;"*/
 	width:13em;
 	height:13em;
 	margin:.3em;
