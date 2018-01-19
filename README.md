@@ -4,7 +4,7 @@ Prijevod sa engleskog na hrvatski.
 Ako nađete neku grešku javite slobodno da ispravimo, ili ako želite možete i sami ispraviti.
 Napravljeno par izmjena na css fileovima kao sto i možete vidjeti, upisao sam šta sam točno mjenjao.
 
-Skinide PDF u pdf folderu
+Skinide PDF iz pdf foldera
 
 ili
 
